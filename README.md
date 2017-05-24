@@ -1,2 +1,2 @@
 # idea-settings
-Idea settings
+My IntelliJ Idea settings
