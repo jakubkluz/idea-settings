@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="BSS-40675" type="JSON" />
       <mapping pattern="186" type="PLAIN_TEXT" />
       <mapping pattern="additionalProductSettlment.feature" type="PLAIN_TEXT" />
       <mapping pattern="187" type="PLAIN_TEXT" />
