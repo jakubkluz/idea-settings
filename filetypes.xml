@@ -5,7 +5,6 @@
       <mapping pattern="186" type="PLAIN_TEXT" />
       <mapping pattern="additionalProductSettlment.feature" type="PLAIN_TEXT" />
       <mapping pattern="187" type="PLAIN_TEXT" />
-      <mapping ext="graphqls" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping ext="frag" type="PLAIN_TEXT" />
     </extensionMap>
