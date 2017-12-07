@@ -5,9 +5,8 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="pom.xml" />
+    <option name="FILE_MASK" value="*.xml" />
     <recentFileMasks>
-      <mask>*.html</mask>
       <mask>*.jsp</mask>
       <mask>*.java</mask>
       <mask>*.js</mask>
@@ -23,7 +22,6 @@
       <mask>xm</mask>
       <mask>*.mxml</mask>
       <mask>xml</mask>
-      <mask>*.xml</mask>
       <mask>*.xm</mask>
       <mask>*.x</mask>
       <mask>*.xs</mask>
@@ -37,6 +35,8 @@
       <mask>pom</mask>
       <mask>pom.</mask>
       <mask>pom.xml</mask>
+      <mask>.xml</mask>
+      <mask>*.xml</mask>
     </recentFileMasks>
   </component>
 </application>
