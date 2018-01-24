@@ -1,12 +1,5 @@
 <application>
   <component name="NodeRendererSettings">
-    <Renderer ID="ArrayRenderer">
-      <option name="NAME" value="unnamed" />
-      <option name="ENABLED" value="true" />
-      <option name="START_INDEX" value="0" />
-      <option name="END_INDEX" value="99" />
-      <option name="ENTRIES_LIMIT" value="99" />
-    </Renderer>
     <Renderer ID="ToStringRenderer">
       <option name="NAME" value="unnamed" />
     </Renderer>
@@ -28,11 +21,22 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="AdditionalProductOffering" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="no.netcom.ipl.productmanager.product.AdditionalProductOffering" />
+        <Renderer ID="LabelRenderer" role="label">
+          <option name="QUALIFIED_NAME" value="no.netcom.ipl.productmanager.product.AdditionalProductOffering" />
+          <option name="ON_DEMAND" value="false" />
+          <option name="LABEL_EXPRESSION" value="&quot;APO[&quot; + this.getId() + &quot;, &quot; + this.getSpecification().getProductCategory() &#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="cz.to2.noe.model.plan.TaskRelationInstance" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="cz.to2.noe.model.plan.TaskRelationInstance" />
         <Renderer ID="LabelRenderer" role="label">
           <option name="QUALIFIED_NAME" value="cz.to2.noe.model.plan.TaskRelationInstance" />
+          <option name="ON_DEMAND" value="false" />
           <option name="LABEL_EXPRESSION" expression="getSourceTaskInstance().getTaskDefinition().getId() + &quot; -&gt; &quot; + getTargetTaskInstance().getTaskDefinition().getId()" language="JAVA" mode="CODE_FRAGMENT" />
         </Renderer>
       </Renderer>
@@ -42,6 +46,7 @@
         <option name="QUALIFIED_NAME" value="cz.to2.noe.model.order.Product" />
         <Renderer ID="LabelRenderer" role="label">
           <option name="QUALIFIED_NAME" value="cz.to2.noe.model.order.Product" />
+          <option name="ON_DEMAND" value="false" />
           <option name="LABEL_EXPRESSION" expression="&quot;id: &quot; + getProductInstanceId() + &quot; category:&quot; + getProductCategorySpecification();" language="JAVA" mode="CODE_FRAGMENT" />
         </Renderer>
       </Renderer>
